@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Jennifer and MSU CAS!
+          Learn React with Jennifer and MSU CAS TEST!
         </a>
       </header>
     </div>
