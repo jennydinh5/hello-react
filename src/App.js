@@ -6,7 +6,7 @@ import './App.css';
 function Library() {
   const [myBooks, setMyBooks] = useState([0]);
   async function getBooks() {
-    let { data: books, error } = await supabase
+    let { data: books } = await supabase
       .from('books')
       .select('*')
     setMyBooks(books);
@@ -15,11 +15,10 @@ function Library() {
   getBooks();
   return (
   <>
-    <table>
+    <table className = "tableBooks">
     {
       myBooks.map(b => (
         <tr>
-          className = "tableBooks"
           <td>{b.title}</td>
           <td>{b.author}</td>
           <td>{b.isbn}</td>
