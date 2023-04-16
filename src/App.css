@@ -1,3 +1,27 @@
+table {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+  margin: 22px 0;
+  font: Arial;
+  background-color: tan;
+  font-size: 15px;
+}
+
+td {
+  padding: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.tableBooks{
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+
 .App {
   text-align: center;
 }
